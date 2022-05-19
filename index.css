@@ -1,0 +1,55 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Sansita Swashed', cursive;
+}
+
+.header{
+      border: 2px solid black;
+      margin: auto;
+      text-align: center;
+      font-size: 5vw;
+      width: 70%;
+      margin-top: 10px;
+      box-shadow: 2px 4px 6px black;
+}
+.container{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: 40px;
+
+}
+.control{
+      height: 100%;
+      display: block;
+}
+.control input{
+      width: 40vw;
+      cursor: pointer;
+}
+.control input[type="color" i]{
+      width: 50px;
+}
+.box{
+      margin-left: 15px;
+      height: 50vh;
+      width: 40vw;
+      background-color: aqua;
+      box-shadow: 10px 10px 5px #0f0f0f ;
+      border: 2px solid black;
+}
+.devlo{
+      background-color: rgba(255, 196, 196, 0.863);
+      border: 1px solid black;
+      width: 35vw;
+      height: 10vh;
+      border-radius: 5px;
+      padding: 8px;
+      text-align: center;
+      font-family: sans-serif;
+}
+.moto{
+      text-align: center;
+      margin-top: 10px;
+}
